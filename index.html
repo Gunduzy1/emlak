@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title data-lang-key="page_title">Gündüz Emlak - Samandağ Şube</title>
+  <meta name="description" data-lang-key="meta_description" content="Gerçek kurumsal, tam ekran, glassmorphism ve animasyonlu ultra modern emlak sitesi.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="ChatGPT Image 12 Haz 2025 20_48_30.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-effect"></div>
+  <header>
+    <div class="navbar">
+      <div class="logo"><i class="fa-solid fa-building"></i> <span data-lang-key="company_name">Gündüz Emlak</span></div>
+      <nav id="mainNav">
+        <a href="#home" class="nav-link active" data-lang-key="home">Anasayfa</a>
+        <a href="#portfolios" class="nav-link" data-lang-key="portfolios">Portföyler</a>
+        <a href="#about" class="nav-link" data-lang-key="about_us">Hakkımızda</a>
+        <a href="#contact" class="nav-link" data-lang-key="contact">İletişim</a>
+        <a href="#advisors" class="nav-link" data-lang-key="advisors">Danışmanlar</a>
+        <a href="#admin" class="nav-link" data-lang-key="admin">Admin</a>
+        <a href="#map" class="nav-link" data-lang-key="location">Konum</a>
+
+        <select id="langSelect" style="margin-left:18px;padding:8px 16px;border-radius:16px;font-weight:700;font-size:1rem;">
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="ar">🇸🇦 العربية</option>
+        </select>
+        <button id="themeToggle"><i class="fa-solid fa-moon"></i><span id="themeLabel" style="margin-left:7px;font-size:1.04rem;vertical-align:middle;" data-lang-key="dark_mode">Koyu Mod</span></button>
+      </nav>
+      <button id="mobileMenuBtn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div id="mobileNav" class="mobile-nav">
+        <a href="#home" class="nav-link active" data-lang-key="home">Anasayfa</a>
+        <a href="#portfolios" class="nav-link" data-lang-key="portfolios">Portföyler</a>
+        <a href="#about" class="nav-link" data-lang-key="about_us">Hakkımızda</a>
+        <a href="#contact" class="nav-link" data-lang-key="contact">İletişim</a>
+        <a href="#advisors" class="nav-link" data-lang-key="advisors">Danışmanlar</a>
+        <a href="#admin" class="nav-link" data-lang-key="admin">Admin</a>
+        <a href="#map" class="nav-link" data-lang-key="location">Konum</a>
+        
+        <select id="mobileLangSelect" style="margin-left:1.3rem;padding:8px 16px;border-radius:16px;font-weight:700;font-size:1rem;margin-bottom:0.5rem; border:1px solid #d2d6e6; background: rgba(247,247,255,.71);">
+            <option value="tr">🇹🇷 Türkçe</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="ar">🇸🇦 العربية</option>
+        </select>
+        <button id="mobileThemeToggle" style="margin-left:1.3rem; background: var(--gradient); color: #fff; padding: 10px 15px; border-radius: 16px; font-weight: 700;"><i class="fa-solid fa-moon"></i><span id="mobileThemeLabel" style="margin-left:7px;font-size:1.04rem;vertical-align:middle;" data-lang-key="dark_mode">Koyu Mod</span></button>
+    </div>
+  </header>
+  <aside class="sidebar" id="sidebarAdvisor">
+    <div class="advisor-card">
+      <img src="Ekran görüntüsü 2025-06-08 220712.png" alt="Danışman" class="advisor-img">
+      <h4 style="font-size:1.2rem;font-weight:700;">Davut Gündüz</h4>
+      <div class="advisor-bio">Profesyonel İş Adamı<br><span>+10 yıl tecrübe</span></div>
+      <div class="advisor-contact">
+        <a href="https://wa.me/905378628530" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:davutarabia0505@hotmail.com" title="E-posta"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </aside>
+  <aside class="sidebar hide" id="sidebarAdvisor">
+    </aside>
+  <main>
+    <section id="mapSection" class="spa-section hide" style="width:100vw; height:100vh; padding:0; margin:0;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.3018880960217!2d35.97460707526936!3d36.08612830762671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1525d699b75baad7%3A0xf924ca6761621f43!2zR8OcTkTDnFogRU1MQUsgVkUgR0FZUsSwTUVOS1VM!5e0!3m2!1str!2str!4v1749388988688!5m2!1str!2str"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <section id="homeSection" class="spa-section">
+      <div class="hero container">
+        <div class="hero-info">
+          <h1 data-lang-key="find_your_dream_home_title">Hayalindeki Evi <span>Bul</span></h1>
+          <p data-lang-key="find_your_dream_home_desc">Gündüz Emlak ile Türkiye'deki en seçkin portföyler, cam gibi tam ekran tasarımda.</p>
+          <a href="#portfolios" class="cta-btn" data-lang-key="browse_portfolios_btn">Portföylere Göz At <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+<div class="hero-slider">
+  <div class="swiper" id="luxurySlider">
+    <div class="swiper-wrapper">    
+      <div class="swiper-slide">
+        <img src="reklam panosu/77074890_2536205513279150_1577718079696142336_n.jpg"Lüks Villa>
+        <div class="slide-caption">Elit Yaşam</div>
+      </div>
+      <div class="swiper-slide">
+        <img src="reklam panosu/Ekran görüntüsü 2025-06-14 121554.png" alt="Premium Rezidans">
+        <div class="slide-caption">Eşsiz Manzara</div>
+      </div>
+      <div class="swiper-slide">
+        <img src="reklam panosu/magusa-yeni-bogazici-satilik-villa-2022080009608700026710737DPLWJ6.jpg" alt="Premium Rezidans">
+        <div class="slide-caption">Eşsiz Manzara</div>
+      </div>
+      <div class="swiper-slide">
+        <img src="reklam panosu/luks-villa-cephe-tasarimi2.jpg" alt="Premium Rezidans">
+        <div class="slide-caption">Eşsiz Manzara</div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+          <div class="swiper-pagination"></div>
+         </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <form id="quickSearch" class="quick-search">
+        <input type="text" name="city" data-lang-key="city_placeholder" placeholder="Şehir">
+        <input type="text" name="district" data-lang-key="district_placeholder" placeholder="İlçe">
+        <input type="number" name="minPrice" data-lang-key="min_price_placeholder" placeholder="Min. Fiyat">
+        <input type="number" name="maxPrice" data-lang-key="max_price_placeholder" placeholder="Maks. Fiyat">
+        <select name="type">
+          <option value="" data-lang-key="type_select_option">Tür</option>
+          <option value="satilik" data-lang-key="for_sale_option">Satılık</option>
+          <option value="kiralik" data-lang-key="for_rent_option">Kiralık</option>
+        </select>
+        <button type="submit" data-lang-key="search_btn"><i class="fa-solid fa-magnifying-glass"></i> Ara</button>
+      </form>
+      <section class="latest container">
+        <h2 style="font-size:2.1rem;color:var(--main);margin:2vw 0 1vw 0;" data-lang-key="latest_listings_title"><i class="fa-solid fa-bolt"></i> Son Eklenenler</h2>
+        <div id="latestList" class="portfolio-grid"></div>
+      </section>
+    </section>
+
+    <section id="portfoliosSection" class="spa-section hide">
+      <div class="section-header">
+        <h2 style="font-size:2rem;" data-lang-key="all_portfolios_title"><i class="fa-solid fa-list-ul"></i> Tüm Portföyler</h2>
+        <div class="portfolio-filter">
+          <input type="text" id="filterCity" data-lang-key="city_placeholder" placeholder="Şehir">
+          <input type="text" id="filterDistrict" data-lang-key="district_placeholder" placeholder="İlçe">
+          <input type="number" id="filterMinPrice" data-lang-key="min_price_placeholder" placeholder="Min. Fiyat">
+          <input type="number" id="filterMaxPrice" data-lang-key="max_price_placeholder" placeholder="Maks. Fiyat">
+          <select id="filterType">
+            <option value="" data-lang-key="type_select_option">Tür</option>
+            <option value="satilik" data-lang-key="for_sale_option">Satılık</option>
+            <option value="kiralik" data-lang-key="for_rent_option">Kiralık</option>
+          </select>
+          <button id="applyFilter" data-lang-key="filter_btn"><i class="fa-solid fa-filter"></i> Filtrele</button>
+        </div>
+      </div>
+      <div id="portfolioList" class="portfolio-grid container">
+        </div>
+    </section>
+
+   <section id="aboutSection" class="about-section spa-section">
+  <div class="about-hero">
+    <div class="about-content">
+      <h2><i class="fa-solid fa-building-columns"></i> Hakkımızda</h2>
+      <p>
+        <strong>Gündüz Emlak</strong> olarak, <b>20+ yıllık tecrübemiz</b> ve <b>%100 müşteri memnuniyeti</b> ile hayalinizdeki evi bulmanızı sağlıyoruz.<br>
+        <span class="about-highlight"><i class="fa-solid fa-star"></i> Profesyonellik • <i class="fa-solid fa-handshake"></i> Güven • <i class="fa-solid fa-lightbulb"></i> Yenilikçilik</span>
+      </p>
+      <div class="about-achievements">
+        <div class="achievement">
+          <i class="fa-solid fa-trophy"></i>
+          <div>
+            <span class="achievement-count">+1500</span>
+            <span class="achievement-title">Başarılı Satış</span>
+          </div>
+        </div>
+        <div class="achievement">
+          <i class="fa-solid fa-users"></i>
+          <div>
+            <span class="achievement-count">%98</span>
+            <span class="achievement-title">Müşteri Memnuniyeti</span>
+          </div>
+        </div>
+        <div class="achievement">
+          <i class="fa-solid fa-award"></i>
+          <div>
+            <span class="achievement-count">8</span>
+            <span class="achievement-title">Sektör Ödülü</span>
+          </div>
+        </div>
+        <div class="achievement">
+          <i class="fa-solid fa-globe"></i>
+          <div>
+            <span class="achievement-count">34</span>
+            <span class="achievement-title">Şehirde Hizmet</span>
+          </div>
+        </div>
+      </div>
+      <ul class="about-list">
+        <li><i class="fa-solid fa-circle-check"></i> Uzman ve deneyimli kadro</li>
+        <li><i class="fa-solid fa-circle-check"></i> Dijital pazarlama ve yenilikçi satış teknikleri</li>
+        <li><i class="fa-solid fa-circle-check"></i> Şeffaf, güvenilir danışmanlık</li>
+        <li><i class="fa-solid fa-circle-check"></i> Satış/kiralama sonrası da yanınızda!</li>
+      </ul>
+    </div>
+    <div class="about-image">
+      <img src="Ekran görüntüsü 2025-06-13 151012.png" alt="Gündüz Emlak Ofis" />
+    </div>
+  </div>
+</section>
+
+  <section id="contactSection" class="spa-section hide">
+  <div class="container" style="max-width:1200px;">
+    <h2 style="font-size:2.3rem;color:var(--main);margin-bottom:2rem;text-align:center;" data-lang-key="contact_us_title">
+      <i class="fa-solid fa-headset"></i> Bize Ulaşın
+    </h2>
+    <div class="contact-flexbox">
+
+      <div class="contact-card">
+        <h3 data-lang-key="leave_message_title">Mesaj Bırakın</h3>
+        <form id="contactForm">
+          <input type="text" name="name" data-lang-key="your_name_placeholder" placeholder="Adınız Soyadınız" required>
+          <input type="email" name="email" data-lang-key="your_email_placeholder" placeholder="E-posta Adresiniz" required>
+          <input type="text" name="subject" data-lang-key="subject_placeholder" placeholder="Konu" required>
+          <textarea name="message" data-lang-key="your_message_placeholder" placeholder="Mesajınız" rows="5" required></textarea>
+          <button type="submit" data-lang-key="send_message_btn"><i class="fa-solid fa-paper-plane"></i> Gönder</button>
+        </form>
+      </div>
+      
+      <div class="contact-card contact-info-card">
+        <h3 data-lang-key="contact_info_title" style="margin-top:0;">İletişim Bilgileri</h3>
+        <p><i class="fa-solid fa-phone"></i> +90 (537) 862 85 30</p>
+        <p><i class="fa-solid fa-envelope"></i> davutarabia0505@hotmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> <span data-lang-key="company_address">Samandağ, Hatay, Türkiye</span></p>
+        <div class="socials" style="margin-bottom:1rem;margin-top:.5rem;">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://wa.me/905378628530"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/gunduz.emlak/"><i class="fa-brands fa-instagram"></i></a>
+         
+        </div>
+        <div class="contact-map-wrap" style="margin-top:1rem;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.3018880960217!2d35.97460707526936!3d36.08612830762671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1525d699b75baad7%3A0xf924ca6761621f43!2zR8OcTkTDnFogRU1MQUsgVkUgR0FZUsSwTUVOS1VM!5e0!3m2!1str!2str!4v1749388988688!5m2!1str!2str"
+            width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="contact-map">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="advisorsSection" class="spa-section hide">
+  <div class="container" style="text-align: center;">
+    <h2 style="font-size:2.3rem;color:var(--main);margin-bottom:2rem;" data-lang-key="our_advisors_title">
+      <i class="fa-solid fa-user-tie"></i> Danışmanlarımız
+    </h2>
+    <div class="about-flex">
+      <!-- Danışman 1 -->
+      <div class="advisor-card">
+        <img src="WhatsApp Görsel 2025-06-12 saat 20.54.50_a2021a5f-crop.jpg" alt="Danışman Yusuf Gündüz" class="advisor-img">
+        <h2 data-lang-key="advisor_ali_name">Yusuf Gündüz</h2>
+        <p class="advisor-bio" data-lang-key="advisor_ali_bio">Deneyimli ve müşteri odaklı emlak danışmanı. Satış ve kiralama konularında uzman.</p>
+        <div class="advisor-contact">
+          <a href="tel:+905393669818"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/905393669818" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        
+        </div>
+      </div>
+      <!-- Danışman 2 -->
+      <div class="advisor-card">
+        <img src="Originals/WhatsApp Görsel 2025-06-12 saat 20.54.55_8707ab63-crop.jpg" alt="Danışman Ayşe Demir" class="advisor-img">
+        <h2 data-lang-key="advisor_ayse_name">Hüseyin Gündüz</h2>
+        <p class="advisor-bio" data-lang-key="advisor_ayse_bio">Geniş portföyü ve hızlı çözümleriyle tanınan başarılı emlak danışmanı.</p>
+        <div class="advisor-contact">
+          <a href="tel:+905394690686"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/905394690686" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          
+        </div>
+      </div>
+      <!-- Danışman 3 -->
+      <div class="advisor-card">
+        <img src="WhatsApp Görsel 2025-06-12 saat 20.56.05_1bc93861-crop.jpg" alt="Danışman Mehmet Kaya" class="advisor-img">
+        <h2 data-lang-key="advisor_mehmet_name">Ali Eren Gündüz</h2>
+        <p class="advisor-bio" data-lang-key="advisor_mehmet_bio">Uzmanlık alanı ticari gayrimenkuller ve yatırım danışmanlığı.</p>
+        <div class="advisor-contact">
+          <a href="tel:+905395207818"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/905395207818" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          
+        </div>
+      </div>
+      <!-- Danışman 4 -->
+      <div class="advisor-card">
+        <img src="" alt="Danışman Zeynep Şahin" class="advisor-img">
+        <h2 data-lang-key="advisor_zeynep_name">Gülistan Tunç</h2>
+        <p class="advisor-bio" data-lang-key="advisor_zeynep_bio">Müşteri memnuniyeti odaklı, hızlı ve güvenilir hizmet sunar.</p>
+        <div class="advisor-contact">
+          <a href="tel:+905307367872"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/905307367872" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          
+        </div>
+      </div>
+      <!-- Danışman 5 -->
+      <div class="advisor-card">
+        <img src="Ekran görüntüsü 2025-06-08 220712.png" alt="Danışman Burak Koç" class="advisor-img">
+        <h2 data-lang-key="advisor_burak_name">Davut Gündüz</h2>
+        <p class="advisor-bio" data-lang-key="advisor_burak_bio">Yenilikçi yaklaşımları ve uzman ekibiyle çözüm odaklı danışman.</p>
+        <div class="advisor-contact">
+          <a href="tel:+905378628530"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/905378628530" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="adminSection" class="spa-section hide">
+      <div class="admin-layout">
+        <div class="admin-panel-glass">
+          <div id="adminLogin" class="admin-login">
+            <h2 data-lang-key="admin_login_title">Admin Girişi</h2>
+            <input type="text" id="adminUsername" data-lang-key="username_placeholder" placeholder="Kullanıcı Adı">
+            <input type="password" id="adminPassword" data-lang-key="password_placeholder" placeholder="Şifre">
+            <button id="loginBtn" data-lang-key="login_btn">Giriş Yap</button>
+          </div>
+
+          <div id="adminPanel" class="hide">
+  <h2 data-lang-key="portfolio_management_title">Portföy Yönetimi</h2>
+  <form id="addPortfolioForm" class="admin-add-form">
+    <h3 data-lang-key="add_new_portfolio_title">Yeni Portföy Ekle</h3>
+    <input type="text" id="portfolioTitle" name="portfolioTitle" data-lang-key="portfolio_title_placeholder" placeholder="Başlık" required>
+    <input type="text" id="portfolioLocation" name="portfolioLocation" data-lang-key="portfolio_location_placeholder" placeholder="Konum (Örn: Hatay, Samandağ)" required>
+    <input type="number" id="portfolioPrice" name="portfolioPrice" data-lang-key="portfolio_price_placeholder" placeholder="Fiyat (TL)" required>
+    <input type="number" id="portfolioArea" name="portfolioArea" data-lang-key="portfolio_area_placeholder" placeholder="Metrekare" required>
+    <select id="portfolioType" name="portfolioType" required>
+      <option value="" data-lang-key="select_type_option">Tip Seçiniz</option>
+      <option value="satilik" data-lang-key="for_sale_option">Satılık</option>
+      <option value="kiralik" data-lang-key="for_rent_option">Kiralık</option>
+    </select>
+    <select id="portfolioCategory" name="portfolioCategory" required>
+      <option value="" data-lang-key="select_category_option">Kategori Seçiniz</option>
+      <option value="daire" data-lang-key="category_apartment">Daire</option>
+      <option value="villa" data-lang-key="category_villa">Villa</option>
+      <option value="arsa" data-lang-key="category_land">Arsa</option>
+      <option value="isyeri" data-lang-key="category_commercial">İş Yeri</option>
+    </select>
+    <input type="text" id="portfolioBedrooms" name="portfolioBedrooms" data-lang-key="bedrooms_placeholder" placeholder="Yatak Odası Sayısı (Örn: 3+1)">
+    <input type="text" id="portfolioBathrooms" name="portfolioBathrooms" data-lang-key="bathrooms_placeholder" placeholder="Banyo Sayısı (Örn: 2)">
+    <input type="text" id="portfolioYearBuilt" name="portfolioYearBuilt" data-lang-key="year_built_placeholder" placeholder="Yapım Yılı (Örn: 2010)">
+    <textarea id="portfolioDescription" name="portfolioDescription" data-lang-key="description_placeholder" placeholder="Açıklama" rows="4"></textarea>
+    <input type="file" id="portfolioImages" multiple accept="image/*">
+<div id="imagePreview" style="margin-top: 10px; display: flex; gap: 10px;"></div>
+    <button type="submit" data-lang-key="add_portfolio_btn">Portföy Ekle</button>
+  </form>
+
+            <h3 data-lang-key="existing_portfolios_title">Mevcut Portföyler</h3>
+            <div id="adminPortfolioList">
+              </div>
+            <button id="logoutBtn" class="delete-portfolio-btn" style="background:#555 !important;" data-lang-key="logout_btn">Çıkış Yap</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toastMessage" class="toast"></div>
+
+   <div id="portfolioDetailModal" class="modal hide">
+      <div class="modal-full-content">
+        <button class="modal-full-close"><i class="fa-solid fa-times"></i></button>
+        <div class="modal-full-gallery">
+          <div class="swiper" id="detailSwiper">
+            <div class="swiper-wrapper" id="detailModalImages"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev detail-prev"></div>
+            <div class="swiper-button-next detail-next"></div>
+          </div>
+        </div>
+        <div class="modal-full-info">
+          <h2 id="detailModalTitle"></h2>
+          <p><i class="fa-solid fa-location-dot"></i> <span id="detailModalLocation"></span></p>
+          <p style="font-size:1.4rem; font-weight:700; color:var(--accent);"><span id="detailModalPrice"></span> TL</p>
+          <p><i class="fa-solid fa-ruler-combined"></i> <span id="detailModalArea"></span> <span data-lang-key="area_unit">m²</span></p>
+          <p><i class="fa-solid fa-home"></i> <span data-lang-key="modal_type_label">Tip:</span> <span id="detailModalType"></span></p>
+          <p><i class="fa-solid fa-tag"></i> <span data-lang-key="modal_category_label">Kategori:</span> <span id="detailModalCategory"></span></p>
+          <p><i class="fa-solid fa-bed"></i> <span data-lang-key="modal_bedrooms_label">Yatak Odası:</span> <span id="detailModalBedrooms"></span></p>
+          <p><i class="fa-solid fa-bath"></i> <span data-lang-key="modal_bathrooms_label">Banyo:</span> <span id="detailModalBathrooms"></span></p>
+          <p><i class="fa-solid fa-calendar-alt"></i> <span data-lang-key="modal_year_built_label">Yapım Yılı:</span> <span id="detailModalYearBuilt"></span></p>
+          <p id="detailModalDescription"></p>
+          <a id="whatsappContactBtn" href="#" class="cta-btn" data-lang-key="contact_us_btn_modal" target="_blank" rel="noopener">
+            İletişime Geçin <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  <button class="scroll-top-btn" id="scrollTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+  <div class="loader" id="loader"></div>
+  <footer class="main-footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <i class="fa-solid fa-building-columns"></i> Gündüz Emlak
+    </div>
+    <nav class="footer-links">
+      <a href="#home">Anasayfa</a>
+      <a href="#advisorsSection">Danışmanlar</a>
+      <a href="#contact">İletişim</a>
+      <a href="#about">Hakkımızda</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/gunduz.emlak/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/905378628530" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:davutarabia0505@hotmail.com" aria-label="Mail"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2025 YUSUF GÜNDÜZ TARAFINDAN YAPILMIŞTIR.
+  </div>
+</footer> 
+<script src="script.js"></script>
+</body>
+</html>
